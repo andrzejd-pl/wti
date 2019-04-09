@@ -36,13 +36,24 @@ def avg_movies_by_genre(dataframe, genre):
     avg = avg.drop(0)
 
     if avg.empty:
-        return 0
+        return {'genre': genre, 'rating': False}
     else:
-        return avg.iloc[0].rating
+        return {'genre': genre, 'rating': avg.iloc[0].rating}
 
 
 def avg_movie_by_user_and_genre(dataframe, user_id, genre):
-    return avg_movies_by_genre(dataframe.loc[lambda df: df.userID == user_id, :], genre)
+    return {
+        'user_id': user_id,
+        'genre': genre,
+        'rating': avg_movies_by_genre(dataframe.loc[lambda df: df.userID == user_id, :], genre)['rating']
+    }
 
 
-
+def profile_user(dataframe, user_id, genre):
+    avg_all = avg_movies_by_genre(dataframe, genre)
+    avg_genre = avg_movie_by_user_and_genre(dataframe, user_id, genre)
+    return {
+        'user_id': user_id,
+        'genre': genre,
+        'rating': (avg_genre['rating'] - avg_all['rating']) if avg_genre['rating'] else 0
+    }
