@@ -49,11 +49,17 @@ def avg_movie_by_user_and_genre(dataframe, user_id, genre):
     }
 
 
-def profile_user(dataframe, user_id, genre):
-    avg_all = avg_movies_by_genre(dataframe, genre)
-    avg_genre = avg_movie_by_user_and_genre(dataframe, user_id, genre)
+def profile_user(dataframe, user_id, genres):
+    ratings = []
+    for genre in genres:
+        avg_all = avg_movies_by_genre(dataframe, genre)
+        avg_genre = avg_movie_by_user_and_genre(dataframe, user_id, genre)
+        ratings.extend([{
+            'genre': genre,
+            'rating': ((avg_genre['rating'] - avg_all['rating']) if avg_genre['rating'] else 0)
+        }])
+
     return {
         'user_id': user_id,
-        'genre': genre,
-        'rating': (avg_genre['rating'] - avg_all['rating']) if avg_genre['rating'] else 0
+        'ratings': ratings
     }
