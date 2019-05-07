@@ -43,5 +43,7 @@ class APILogic(object):
                               methods=['DELETE', ])
         self.app.add_endpoint(endpoint='/avg-genre-ratings/all-users', endpoint_name='get_all_avg_users',
                               handler=self.get_all_avg_users, methods=['GET', ])
+        self.app.add_endpoint(endpoint='/avg-genre-ratings/<user>', endpoint_name='get_all_avg_users',
+                              handler=self.get_all_avg_users, methods=['GET', ])
         self.app.add_endpoint(endpoint='/ratings', endpoint_name='get_all_ratings', handler=self.get_all,
                               methods=['GET', ])
