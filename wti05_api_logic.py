@@ -8,8 +8,32 @@ import wti03_ETL
 from wti05_module import FlaskAppWrapper
 
 
+def count_avg(ratings):
+    element = {}
+    i = 0
+
+    for row in ratings:
+        for col, val in row.items():
+            if col in ['movie_id', 'user_id', 'rating', 'user_ratings_id']:
+                continue
+
+            if col in element.keys() and val == 1 and element[col] != 'NaN':
+                element[col] = float(element[col] + float(row['rating']))
+            elif val == 1:
+                element[col] = float(row['rating'])
+            else:
+                element[col] = 'NaN'
+        i += 1
+
+    for col, val in element.items():
+        if val != 'NaN':
+            element[col] = val / i
+
+    return element
+
+
 class APILogic(object):
-    def __init__(self, app=FlaskAppWrapper(name='tmp')):
+    def __init__(self, app=FlaskAppWrapper(name='user_ratings')):
         self.app = app
         self.data_frame = DataFrame(
             columns=['userID', 'movieID', 'rating', 'genre-Animation', 'genre-Musical', 'genre-Drama', 'genre-War',
@@ -30,7 +54,7 @@ class APILogic(object):
         return Response(status=204)
 
     def get_all_avg_users(self):
-        return flask.Response(response=json.dumps(wti03_ETL.count_avg(self.data_frame)), status=201,
+        return flask.Response(response=json.dumps(count_avg(self.data_frame)), status=201,
                               mimetype='application/json')
 
     def get_avg_user(self, user):
