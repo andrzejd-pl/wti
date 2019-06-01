@@ -4,7 +4,6 @@
     <list default="true" id="a21aea84-9d63-47b1-8b38-c5daec3ea7dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wti06_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti06_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wti06_cassandra_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti06_cassandra_client.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,35 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wti06_API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wti06_cassandra_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wti05_api_logic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="87" selection-start-line="87" selection-end-line="123" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -125,8 +100,8 @@
         <option value="$PROJECT_DIR$/wti04_module.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wti05_api_logic.py" />
-        <option value="$PROJECT_DIR$/wti06_API.py" />
         <option value="$PROJECT_DIR$/wti06_cassandra_client.py" />
+        <option value="$PROJECT_DIR$/wti06_API.py" />
       </list>
     </option>
   </component>
@@ -361,7 +336,7 @@
       <workItem from="1558992461606" duration="1387000" />
       <workItem from="1559041223476" duration="6160000" />
       <workItem from="1559283087089" duration="2261000" />
-      <workItem from="1559407395490" duration="2009000" />
+      <workItem from="1559407395490" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="add wti 4">
       <created>1554812871574</created>
@@ -461,17 +436,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559287266590</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chore(wti-06): create Cassandra client">
+      <created>1559411844233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559411844233</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48261000" />
+    <option name="totallyTimeSpent" value="48802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -575,7 +557,8 @@
     <MESSAGE value="chore: add idea directory" />
     <MESSAGE value="chore(wti-05): add client API" />
     <MESSAGE value="chore(wti-05): add API class" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(wti-05): add API class" />
+    <MESSAGE value="chore(wti-06): create Cassandra client" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(wti-06): create Cassandra client" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/wtienv01/wtivenv01/lib/python3.6/site-packages/redis/client.py" />
@@ -754,10 +737,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wti05_api_logic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="87" selection-start-line="87" selection-end-line="123" />
+        <state relative-caret-position="1440">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti06_cassandra_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,20 +764,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wti06_API.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wti06_cassandra_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
