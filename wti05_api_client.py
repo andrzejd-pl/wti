@@ -127,4 +127,5 @@ def fuction():
     wti03_ETL.print_request(r)
 
 
-fuction()
+if __name__ == '__main__':
+    fuction()
