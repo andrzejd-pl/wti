@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a21aea84-9d63-47b1-8b38-c5daec3ea7dd" name="Default Changelist" comment="chore(wti-03): change dict names">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wti03_ETL.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti03_ETL.py" afterDir="false" />
+    <list default="true" id="a21aea84-9d63-47b1-8b38-c5daec3ea7dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wti06_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti06_API.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wti06_cassandra_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti06_cassandra_client.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wti05_api_client.py">
+        <entry file="file://$PROJECT_DIR$/wti06_API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="-94">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -46,38 +47,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wti05_module.py">
+        <entry file="file://$PROJECT_DIR$/wti06_cassandra_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wti04_module.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+            <state relative-caret-position="513">
+              <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wti04_test.py">
+        <entry file="file://$PROJECT_DIR$/wti05_api_logic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="1185">
+              <caret line="87" selection-start-line="87" selection-end-line="123" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,19 +114,19 @@
         <option value="$PROJECT_DIR$/wti05_module.py" />
         <option value="$PROJECT_DIR$/wti06_main.py" />
         <option value="$PROJECT_DIR$/wti06_simple_cassandra_client.py" />
-        <option value="$PROJECT_DIR$/wti06_cassandra_client.py" />
-        <option value="$PROJECT_DIR$/wti06_API.py" />
         <option value="$PROJECT_DIR$/wti06_ETL.py" />
         <option value="$PROJECT_DIR$/wti05_main.py" />
         <option value="$PROJECT_DIR$/wti05_API.py" />
         <option value="$PROJECT_DIR$/wtiproj03_client.py" />
-        <option value="$PROJECT_DIR$/wti05_api_logic.py" />
         <option value="$PROJECT_DIR$/wti05_redis_client.py" />
         <option value="$PROJECT_DIR$/wti03_ETL.py" />
         <option value="$PROJECT_DIR$/wti05_api_client.py" />
         <option value="$PROJECT_DIR$/wti04_test.py" />
         <option value="$PROJECT_DIR$/wti04_module.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wti05_api_logic.py" />
+        <option value="$PROJECT_DIR$/wti06_API.py" />
+        <option value="$PROJECT_DIR$/wti06_cassandra_client.py" />
       </list>
     </option>
   </component>
@@ -197,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wti04_test">
+  <component name="RunManager" selected="Python.wti06_cassandra_client">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="wtiproj01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,6 +211,9 @@
       <module name="wtiproj01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -283,20 +273,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wti06_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wti06_cassandra_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="wtiproj01" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wti06_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wti06_cassandra_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +315,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.wti06_main" />
       <item itemvalue="Python.wti05_API" />
       <item itemvalue="Python.wtiproj03_client" />
       <item itemvalue="Python.wti05_api_client" />
       <item itemvalue="Python.wti04_test" />
+      <item itemvalue="Python.wti06_cassandra_client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wti06_cassandra_client" />
         <item itemvalue="Python.wti04_test" />
         <item itemvalue="Python.wti05_api_client" />
         <item itemvalue="Python.wti05_API" />
         <item itemvalue="Python.wtiproj03_client" />
-        <item itemvalue="Python.wti06_main" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +360,8 @@
       <workItem from="1558977762163" duration="6582000" />
       <workItem from="1558992461606" duration="1387000" />
       <workItem from="1559041223476" duration="6160000" />
-      <workItem from="1559283087089" duration="1305000" />
+      <workItem from="1559283087089" duration="2261000" />
+      <workItem from="1559407395490" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="add wti 4">
       <created>1554812871574</created>
@@ -452,17 +440,38 @@
       <option name="project" value="LOCAL" />
       <updated>1559284633508</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chore(wti-03): change dict names">
+      <created>1559284672940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559284672940</updated>
+    </task>
+    <task id="LOCAL-00013" summary="chore(wti-05): add client API">
+      <created>1559284771675</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559284771675</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore(wti-05): add API class">
+      <created>1559287266590</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559287266590</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45296000" />
+    <option name="totallyTimeSpent" value="48261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -561,9 +570,12 @@
     <MESSAGE value="chore(wti-05): change api_logic and add API script" />
     <MESSAGE value="chore(wti-05): add redis client" />
     <MESSAGE value="chore(wti-05): final api" />
-    <MESSAGE value="chore(wti-03): change dict names" />
     <MESSAGE value="chore(wti-04): change dict names" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(wti-04): change dict names" />
+    <MESSAGE value="chore(wti-03): change dict names" />
+    <MESSAGE value="chore: add idea directory" />
+    <MESSAGE value="chore(wti-05): add client API" />
+    <MESSAGE value="chore(wti-05): add API class" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(wti-05): add API class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/wtienv01/wtivenv01/lib/python3.6/site-packages/redis/client.py" />
@@ -603,33 +615,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wti05_main.py" />
-    <entry file="file://$PROJECT_DIR$/wti06_cassandra_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wti06_API.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wti06_ETL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wtiproj03_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -707,17 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wti05_api_logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#182#218#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie_genres.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -728,22 +702,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wti04_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wti03_ETL.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti05_api_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/other.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wti04_module.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,25 +735,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wti05_module.py">
+    <entry file="file://$PROJECT_DIR$/wti04_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wti05_api_client.py">
+    <entry file="file://$PROJECT_DIR$/wti05_module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti05_api_logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="87" selection-start-line="87" selection-end-line="123" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/wti06_ETL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti06_API.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti06_cassandra_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
