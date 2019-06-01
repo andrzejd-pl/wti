@@ -41,7 +41,7 @@ class CassandraClient(object):
             genre_children int,
             genre_comedy int,
             genre_fantasy int,
-            genre_iMAX int,
+            genre_imax int,
             genre_thriller int,
             genre_crime int,
             genre_film_noir int,
@@ -57,7 +57,7 @@ class CassandraClient(object):
                 INSERT INTO """ + self.keyspace + """.""" + table + """ (user_ratings_id, user_id, movie_id, rating,
                         genre_animation, genre_musical, genre_drama, genre_war, genre_romance, genre_sci_fi,
                         genre_mystery, genre_short, genre_action, genre_western, genre_horror, genre_children,
-                        genre_comedy, genre_fantasy, genre_iMAX, genre_thriller, genre_crime, genre_film_noir,
+                        genre_comedy, genre_fantasy, genre_imax, genre_thriller, genre_crime, genre_film_noir,
                         genre_adventure, genre_documentary)
                 VALUES (
                     %(user_ratings_id)s,
@@ -78,7 +78,7 @@ class CassandraClient(object):
                     %(genre_children)s,
                     %(genre_comedy)s,
                     %(genre_fantasy)s,
-                    %(genre_iMAX)s,
+                    %(genre_imax)s,
                     %(genre_thriller)s,
                     %(genre_crime)s,
                     %(genre_film_noir)s,
