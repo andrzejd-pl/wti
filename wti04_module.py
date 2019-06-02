@@ -1,10 +1,10 @@
 import pandas
 import numpy
-import wtiproj01_module
+import wti01_module
 
 
 def join_tables(user_ratedmovies, movie_genres):
-    user_rates_with_movies = wtiproj01_module.join_tables(user_ratedmovies, movie_genres)
+    user_rates_with_movies = wti01_module.join_tables(user_ratedmovies, movie_genres)
     genres_list = list(set([item.lower().replace('-', '_') for sublist in user_rates_with_movies['genres'].tolist() for item in sublist]))
     json_columns_list = list(['user_id', 'movie_id', 'rating'])
     json_columns_list.extend(list(('genre-' + item).lower().replace('-', '_') for item in genres_list))
