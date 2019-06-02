@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a21aea84-9d63-47b1-8b38-c5daec3ea7dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wti04_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti04_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wtiproj01_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti01_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wtiproj02_consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti02_consumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wtiproj02_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti02_producer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wtiproj03_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti03_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wtiproj03_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/wti03_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,23 @@
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wti07_elasticsearch_simple_client.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_ratedmovies.dat">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state>
+              <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -160,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wti05_api_client">
+  <component name="RunManager" selected="Python.wti07_elasticsearch_simple_client">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="wtiproj01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,28 +208,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wti04_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="wti05_API" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wtiproj01" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wti05_API.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,20 +282,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wti07_elasticsearch_simple_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="wtiproj01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wti07_elasticsearch_simple_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.wti05_API" />
       <item itemvalue="Python.wti05_api_client" />
       <item itemvalue="Python.wti04_test" />
       <item itemvalue="Python.wti06_cassandra_client" />
       <item itemvalue="Python.wti06_main" />
+      <item itemvalue="Python.wti07_elasticsearch_simple_client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wti07_elasticsearch_simple_client" />
         <item itemvalue="Python.wti05_api_client" />
         <item itemvalue="Python.wti06_main" />
         <item itemvalue="Python.wti06_cassandra_client" />
         <item itemvalue="Python.wti04_test" />
-        <item itemvalue="Python.wti05_API" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +351,7 @@
       <workItem from="1559407395490" duration="3216000" />
       <workItem from="1559477101598" duration="55000" />
       <workItem from="1559477214068" duration="5000" />
-      <workItem from="1559477258569" duration="721000" />
+      <workItem from="1559477258569" duration="3402000" />
     </task>
     <task id="LOCAL-00001" summary="add wti 4">
       <created>1554812871574</created>
@@ -478,17 +486,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559412725185</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="chore(wti): standardise file names">
+      <created>1559479589651</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559479589651</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50249000" />
+    <option name="totallyTimeSpent" value="52930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -597,7 +612,8 @@
     <MESSAGE value="chore(wti-05): standardize main file" />
     <MESSAGE value="chore(wti-06): change column name" />
     <MESSAGE value="chore(wti-06): standardise main file^" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(wti-06): standardise main file^" />
+    <MESSAGE value="chore(wti): standardise file names" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(wti): standardise file names" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/wtienv01/wtivenv01/lib/python3.6/site-packages/redis/client.py" />
@@ -644,16 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="1663" column="8" selection-start-line="1663" selection-start-column="8" selection-end-line="1663" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wti01_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,16 +710,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie_genres.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_ratedmovies.dat">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -814,8 +810,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wti07_elasticsearch_simple_client.py">
+    <entry file="file://$PROJECT_DIR$/user_ratedmovies.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie_genres.dat">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti01_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wti07_elasticsearch_simple_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
