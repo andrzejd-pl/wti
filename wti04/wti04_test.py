@@ -1,9 +1,9 @@
 import pandas
 
-import wti04_module
+from wti04 import wti04_module
 
-user_ratemovies = pandas.read_csv(filepath_or_buffer='./user_ratedmovies.dat', sep='\t')
-movie_genres = pandas.read_csv(filepath_or_buffer='./movie_genres.dat', sep='\t')
+user_ratemovies = pandas.read_csv(filepath_or_buffer='../data/user_ratedmovies.dat', sep='\t')
+movie_genres = pandas.read_csv(filepath_or_buffer='../data/movie_genres.dat', sep='\t')
 
 join_table, genres = wti04_module.join_tables(user_ratemovies, movie_genres)
 

@@ -1,5 +1,5 @@
-from wti05_api_logic import APILogic
-from wti05_module import FlaskAppWrapper
+from wti05.wti05_api_logic import APILogic
+from wti05.wti05_module import FlaskAppWrapper
 
 app = FlaskAppWrapper('API - Logic')
 api_logic = APILogic(app)

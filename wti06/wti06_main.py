@@ -1,5 +1,5 @@
-from wti06_API import APILogic
-from wti05_module import FlaskAppWrapper
+from API.wti06_API import APILogic
+from wti05.wti05_module import FlaskAppWrapper
 
 
 def main():

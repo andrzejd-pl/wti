@@ -1,6 +1,6 @@
 import pandas
 import numpy
-import wti01_module
+from wti01 import wti01_module
 
 
 def join_tables(user_ratedmovies, movie_genres):

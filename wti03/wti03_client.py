@@ -1,4 +1,4 @@
-import wti03_ETL
+from wti03 import wti03_ETL
 import requests
 import json
 import threading

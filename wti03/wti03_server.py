@@ -1,11 +1,11 @@
-import wti01_module
-import wti03_ETL
+from wti01 import wti01_module
+from wti03 import wti03_ETL
 import pandas
 import flask
 import json
 
-user_ratemovies = pandas.read_csv(filepath_or_buffer='/home/vagrant/user_ratedmovies.dat', sep='\t')
-movie_genres = pandas.read_csv(filepath_or_buffer='/home/vagrant/movie_genres.dat', sep='\t')
+user_ratemovies = pandas.read_csv(filepath_or_buffer='../data/user_ratedmovies.dat', sep='\t')
+movie_genres = pandas.read_csv(filepath_or_buffer='../data/movie_genres.dat', sep='\t')
 user_rate_movies_genres = wti03_ETL.build_dataframe(wti01_module.join_tables(user_ratemovies, movie_genres)).head()
 
 my_app = flask.Flask(__name__)

@@ -5,8 +5,8 @@ import numpy
 from flask import Response
 from pandas import DataFrame
 
-from wti05_module import FlaskAppWrapper
-from wti05_redis_client import RedisClient
+from wti05.wti05_module import FlaskAppWrapper
+from wti05.wti05_redis_client import RedisClient
 
 
 def count_avg(ratings: DataFrame):
@@ -66,11 +66,11 @@ class APILogicDF(object):
         return Response(status=204)
 
     def get_all_avg_users(self):
-        return flask.Response(response=json.dumps(count_avg(self.data_frame)), status=201,
+        return flask.Response(response=json.dumps(count_avg(self.data_frame)), status=200,
                               mimetype='application/json')
 
     def get_avg_user(self, user):
-        return flask.Response(response=json.dumps(get_user_profile(self.data_frame, user)), status=201,
+        return flask.Response(response=json.dumps(get_user_profile(self.data_frame, user)), status=200,
                               mimetype='application/json')
 
     def add_all_endpoints(self):

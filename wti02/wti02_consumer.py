@@ -1,4 +1,4 @@
-import wti01_module
+from wti01 import wti01_module
 import redis
 
 rds = redis.Redis(host='localhost', port='6381', charset='utf-8', decode_responses=True)

@@ -20,3 +20,17 @@ def count_avg(ratings):
             element[col] = val/i
 
     return element
+
+
+def get_profile(ratings, user_ratings):
+    avg_all = count_avg(ratings)
+    avg_user = count_avg(user_ratings)
+    profile = {}
+
+    for column in avg_user:
+        if avg_user[column] == 'NaN':
+            profile[column] = 0
+        else:
+            profile[column] = avg_all[column] - avg_user[column]
+
+    return profile
