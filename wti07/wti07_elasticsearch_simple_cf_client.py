@@ -41,6 +41,15 @@ class ElasticClient(object):
         helpers.bulk(self.client, index_movies)
         print("Done")
 
+    def add_doc(self, index, doc_type, doc_id, doc):
+        return self.client.create(index=index, doc_type=doc_type, id=doc_id, body={'ratings': doc})
+
+    def add_user(self, index='users', doc_type='user', user_id=None, user=None):
+        return self.add_doc(index, doc_type, user_id, user)
+
+    def add_movie(self, index='movies', doc_type='movie', movie_id=None, movie=None):
+        return self.add_doc(index, doc_type, movie_id, movie)
+
     def get_movies_liked_by_user(self, user_id, index='users'):
         user_id = int(user_id)
         return self.client.get(index=index, doc_type="user", id=user_id)["_source"]
@@ -49,7 +58,7 @@ class ElasticClient(object):
         movie_id = int(movie_id)
         return self.client.get(index=index, doc_type="movie", id=movie_id)["_source"]
 
-    def get_recommended_film_by_user(self, user, index='users'):
+    def get_recommended_movie_by_user(self, user, index='users'):
         user_id = int(user)
         user_doc = self.client.get_source(index=index, doc_type="user", id=user_id)
         find_films = self.__search_film_by_user(index=index, user_doc=user_doc, user_id=user_id)
@@ -61,7 +70,7 @@ class ElasticClient(object):
 
         return best_film
 
-    def get_recommended_user_by_film(self, film, index='movies'):
+    def get_recommended_user_by_movie(self, film, index='movies'):
         film_id = int(film)
         film_doc = self.client.get_source(index=index, doc_type='movie', id=film_id)
         find_users = self.__search_user_by_film(index=index, film_doc=film_doc, film_id=film_id)
@@ -130,8 +139,8 @@ class ElasticClient(object):
 
 def main():
     ec = ElasticClient()
-    print(ec.get_recommended_film_by_user(78))
-    print(ec.get_recommended_user_by_film(3))
+    print(ec.get_recommended_movie_by_user(78))
+    print(ec.get_recommended_user_by_movie(3))
 
 
 if __name__ == "__main__":
